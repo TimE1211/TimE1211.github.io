@@ -262,8 +262,6 @@
                </div>
            </div>
            <div class="row">
-                 {% for post in site.posts %}
-                 {% if post.about %}
                    <div class="col-lg-11 center">
                      <img src="/img/TimHang.png" class="img-circle" width="200" align="left" style="margin: 40px 40px; margin-top:0px;" />
                      <h3>
@@ -284,21 +282,17 @@
                        <div class="footer-col col-md-4">
                          <h4> &nbsp;&nbsp; Languages</h4>
                          <ul class="new-list" style="margin-bottom:40px">
-                           {% for line in post.list1Content %}
                              <li>
                                Swift
                              </li>
                              <li>
                                Obejective C
                              </li>
-                           {% endfor %}
                          </ul>
                        </div>
-                       {% if post.list2Title %}
                          <div class="footer-col col-md-4">
                            <h4> &nbsp;&nbsp; Programs I use</h4>
                            <ul class="new-list">
-                             {% for line in post.list2Content %}
                                <li>
                                  Xcode
                                </li>
@@ -311,14 +305,10 @@
                                <li>
                                  GitKraken
                                </li>
-                             {% endfor %}
                            </ul>
                          </div>
-                       {% endif %}
                      </div>
                    </div>
-                 {% endif %}
-                 {% endfor %}
                </div>
            </div>
    </section>
