@@ -196,7 +196,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-8">
+                <!-- <div class="col-md-8">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-6">
@@ -232,12 +232,12 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </section>
 
-    <section id="" class="download bg-primary text-center">
+    <!-- <section id="" class="download bg-primary text-center">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -250,7 +250,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- About Section -->
    <section class="success" id="about">
@@ -267,37 +267,49 @@
                    <div class="col-lg-11 center">
                      <img src="/img/TimHang.png" class="img-circle" width="200" align="left" style="margin: 40px 40px; margin-top:0px;" />
                      <h3>
-                       {{ post.title }}
+                       Timothy Hang
                      </h3>
                      <h4 class="short-margin">
                        <a href="mailto:{{ post.email }}" target="_top">
-                         {{ post.email }}
+                        timmy121192@gmail.com
                        </a> |
-                       {{ post.contact }}
+                       918-935-6418
                      </h4>
-                     <h4 style="margin-top:10px">{{ post.job }}</h4>
+                     <h4 style="margin-top:10px">Currently looking for employment as an iOS Developer</h4>
                      <h5 class="short-margin">{{ post.dates }}</h5>
                      <p class="short-margin">
-                       {{ post.content }}
+                       Hello, I am a new iOS Developer who just graduated from the Iron Yard Orlando Bootcamp. For 12 weeks I worked hard to learn the basics of programming and how to develop apps. I went to college for engineering for 4 years and have a good understanding of math and logic. I am still very green when it comes to programming, but I learn fast and am ready to do whatever is needed of me in order to grow into a good and experienced programmer.
                      </p>
                      <div class="row">
                        <div class="footer-col col-md-4">
-                         <h4> &nbsp;&nbsp; {{ post.list1Title }}</h4>
+                         <h4> &nbsp;&nbsp; Languages</h4>
                          <ul class="new-list" style="margin-bottom:40px">
                            {% for line in post.list1Content %}
                              <li>
-                               {{ line.line }}
+                               Swift
+                             </li>
+                             <li>
+                               Obejective C
                              </li>
                            {% endfor %}
                          </ul>
                        </div>
                        {% if post.list2Title %}
                          <div class="footer-col col-md-4">
-                           <h4> &nbsp;&nbsp; {{ post.list2Title }}</h4>
+                           <h4> &nbsp;&nbsp; Programs I use</h4>
                            <ul class="new-list">
                              {% for line in post.list2Content %}
                                <li>
-                                 {{ line.line }}
+                                 Xcode
+                               </li>
+                               <li>
+                                 Atom
+                               </li>
+                               <li>
+                                 Github
+                               </li>
+                               <li>
+                                 GitKraken
                                </li>
                              {% endfor %}
                            </ul>
@@ -311,7 +323,7 @@
            </div>
    </section>
 
-    <section class="cta">
+    <!-- <section class="cta">
         <div class="cta-content">
             <div class="container">
                 <h2>Stop waiting.<br>Start building.</h2>
@@ -319,7 +331,7 @@
             </div>
         </div>
         <div class="overlay"></div>
-    </section>
+    </section> -->
 
     <section id="contact">
         <div class="container">
